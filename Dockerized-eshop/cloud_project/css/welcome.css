@@ -1,0 +1,137 @@
+html{
+    height: 100%;
+}
+body {
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.form {
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    margin: 25vh auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+    border-radius: 16px;
+}
+
+nav ul{height:300px; width:700px;}
+nav ul{overflow:hidden; overflow-y:scroll;}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: -10px;
+    transform: translateY(-100%);
+    transition: transform .5s cubic-bezier(.4,0,.2,1);
+    text-shadow: 0 10px 10px rgba(0,0,0,.6);
+}
+
+.topnav p {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    text-shadow: 0 10px 10px rgba(0,0,0,.6);
+    margin-top: 5px;
+}
+
+.topnav input{
+    float: right;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    background-color: #069;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 16px; 
+}
+
+.topnav a.active {
+    background-color: #069;
+    color: white;
+}
+
+.topnav:hover a{
+    transform: translateY(0);
+}
+
+h1{
+    text-align: center;
+    margin: 15vh auto;
+    font-size: 45px;
+    color: white;
+    text-shadow: 0 10px 10px rgba(0,0,0,.6);
+    padding-left:16px
+}
+h2{
+    color: white;
+    text-align: center;
+    text-shadow: 0 10px 10px rgba(0,0,0,.6);
+    padding-left:16px
+}
+
+tbody{
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 300px;
+}
+th{
+    position: sticky; top: 0;
+    width: 1%;
+}
+thead{
+    position: sticky; top: 0;
+}
+thead tr td{
+    color: black;
+    background-color: #069;
+}
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    width: 60%;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+td, th {
+    text-align: center;
+    padding: 8px;
+    color: white;
+    background-color: white;
+    color: black;
+}
+th{
+    background-color: #069;
+}
+
+button{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+}

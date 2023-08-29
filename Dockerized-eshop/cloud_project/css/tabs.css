@@ -1,0 +1,218 @@
+html{
+    height: 100%;
+}
+body {
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.form {
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    margin: 25vh auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+    border-radius: 16px;
+}
+
+nav ul{height:300px; width:700px;}
+nav ul{overflow:hidden; overflow-y:scroll;}
+
+.topnav {
+    overflow: hidden;
+
+}
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: transform .5s cubic-bezier(.4,0,.2,1);
+    text-shadow: 0 10px 10px rgba(0,0,0,.6);
+}
+.topnav p {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    text-shadow: 0 10px 10px rgba(0,0,0,.6);
+}
+.topnav input{
+    float: right;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    background-color: #069;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 16px; 
+}
+.topnav a.active {
+    background-color: #069;
+    color: white;
+}
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: 1000px;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+    color: white;
+    background-color: white;
+    color: black;
+}
+th{
+    background-color: #069;
+}
+button{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+}
+thead tr td{
+    font-size: small;
+    color: black;
+    background-color: #069;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    text-shadow: 0 10px 10px rgba(0,0,0,.6);
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: calc(100% - 23px);
+    border-radius: 20px;
+}
+.box {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    height: 25px;
+    width: 50%;
+    border-radius: 10px;
+} 
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.txtedit{
+    display: none;
+    width: 200px;
+    height: 30px;
+}
+.box{
+    width: 200px;
+    margin-bottom: auto;
+}
+.edit{
+    width: 150px;
+}
+#search_div {
+    width: 25%;
+    margin: 0 auto;
+}
+h3{
+    text-align: center;
+    margin-bottom: 0px;
+}
+tbody{
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 300px;
+}
+th{
+    position: sticky; top: 0;
+    width: 1%;
+}
+thead{
+    position: sticky; top: 0;
+}
